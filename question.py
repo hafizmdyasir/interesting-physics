@@ -31,7 +31,13 @@ for each_chapter in chapters:
 	toptuple = ch_walker.next()
 	subjects = toptuple[1];
 
-	#print each section
+	#print the preface text.
+	prefacepath = join(".",each_chapter,"preface.tex")
+	if os.path.isfile(prefacepath):
+		line = "\input{" + prefacepath + "}\n"
+		maintex.write(line)
+
+	#print each book
 	for each_subject in subjects:
 		line = "\section{" + section_name(each_subject) + "}\n"
 		maintex.write(line)

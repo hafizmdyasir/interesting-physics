@@ -1,5 +1,5 @@
 # interesting-physics
-This contains the source code for the Book of Interesting Physics.
+This contains the source code for the Book of Interesting Physics. Check out intuition_qs_only.pdf for a taste.
 
 
 #The Goal

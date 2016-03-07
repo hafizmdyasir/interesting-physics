@@ -38,3 +38,12 @@ as well as a solutions folder. For an example check out
 /intuition/classical-mechanics/question1/
 
 Note that classical-mechanics is spelled out, our compiler will use the folder name as the section that the problem will fall under.
+
+#Submitting your question
+
+To submit a question you can either send me the question via someway, or use git and help me out by doing it yourself. All it takes is forking the git (there's a button in the upper right hand corner), and then making folders (for example 'question3' in intuiton/classical-mechanics/) and submitting a pull request.
+
+
+#To Do
+
+Make the answer.py, both.py, everything.py scripts.

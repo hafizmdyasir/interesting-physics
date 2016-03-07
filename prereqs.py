@@ -21,6 +21,7 @@ def start_tex():
 	\\usepackage{physics}
 	\\usepackage{graphicx}
 	\\usepackage{siunitx}
+	\\usepackage{hyperref}
 
 	\\begin{document}
 

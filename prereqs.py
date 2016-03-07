@@ -3,7 +3,6 @@ from re import split
 def section_name(string):
 	#split the folder name using - or _ as delimiters
 	parts = split('[-_]', string)
-	print parts
 	capitalized_parts = []
 
 	#capitalize each component

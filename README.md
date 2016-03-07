@@ -29,3 +29,12 @@ have a folder
 
 
 
+#Folder Convention
+
+In each folder will be folders dictating the subject, with subfolders for each question,
+in these folders there is a folder for all the appropriate files that a question.tex requires
+as well as a solutions folder. For an example check out
+
+/intuition/classical-mechanics/question1/
+
+Note that classical-mechanics is spelled out, our compiler will use the folder name as the section that the problem will fall under.

@@ -22,7 +22,9 @@ and show the limits of analytical solutions in physics. For each of these we'll
 have a folder
 
 /intuition/
+
 /interesting/
+
 /intensive/
 
 

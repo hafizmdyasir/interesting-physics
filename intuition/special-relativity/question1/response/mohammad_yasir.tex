@@ -1,0 +1,34 @@
+This problem was tackled in a research paper titled "The density of a body and special relativity" by Shukri Klinaku, a copy of which, may be seen at \href{https://www.researchgate.net/publication/283213614_The_Density_of_a_Body_and_Special_Relativity}{here}. I will attempt a similar approach here. The short answer is that density is invariant under Lorentz transforms and we will prove the same here.
+
+Let us resolve this apparent paradox without even worrying about the bullet and the fluid. Consider two reference frames $S$ and $S'$, where $S'$ is moving at a relativistic velocity with respect to  S (along the x-axis only). We then consider a cuboidal box , say $B$, with dimensions $x,y,z$ along the x, y, and z-axes respectively in the S frame. This box is stationary in the $S'$ frame.
+
+\textbf{For the S-frame}, the density is then given as 
+\begin{equation}
+    \rho = \frac{m}{V}
+    \label{density}
+\end{equation}
+Here, the mass $m$ of the box is not its rest mass. Rather, since the cuboidal box is at rest with respect to $S'$, its mass in $S$ is given as 
+\begin{equation}
+    m = \frac{m_0}{\sqrt{1-\frac{v^2}{c^2}}}
+    \label{relativisticMass}
+\end{equation}\\
+\textbf{For the S'-frame}, the density is given as $$\rho = \frac{m_0}{V'}$$
+Where $V'$ is the volume in this frame, given by $V' = x' \times y \times z$. Using length contraction, we can write
+\begin{equation}
+    x' = x \sqrt{1-\frac{v^2}{c^2}}
+\end{equation}
+And thus
+\begin{equation}
+    V' = V \sqrt{1-\frac{v^2}{c^2}}
+    \label{relativisticVolume}
+\end{equation}
+
+
+Let us replace the values of $m$ and $V$ in equation~\ref{density} from equations~\ref{relativisticMass} and~\ref{relativisticVolume}. We get
+\begin{align*}
+    \rho &= \frac{m}{V}\\
+            &= \frac{\frac{m_0}{\sqrt{1-\frac{v^2}{c^2}}}}{\frac{V'}{\sqrt{1-\frac{v^2}{c^2}}}}\\
+            &= \frac{m_0}{V'}\\
+    \rho &= \rho '
+\end{align*}
+Thus, we can see that the length contraction effect is counterbalanced by the mass dilation effect, effectively making the density of any object an invariant quantity regardless of whether the motion is relativistic or not. 

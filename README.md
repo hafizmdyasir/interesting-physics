@@ -2,7 +2,7 @@
 This contains the source code for the Book of Interesting Physics. Check out intuition_qs_only.pdf for a taste.
 
 
-#The Goal
+# The Goal
 There exists a large body of physics literature, both text books and 
 popular accounts, however in popular accounts there are often no problems,
 or when they are presented are worked out, while in text books there 
@@ -29,7 +29,7 @@ have a folder
 
 
 
-#Folder Convention
+# Folder Convention
 
 In each folder will be folders dictating the subject, with subfolders for each question,
 in these folders there is a folder for all the appropriate files that a question.tex requires
@@ -39,11 +39,11 @@ as well as a solutions folder. For an example check out
 
 Note that classical-mechanics is spelled out, our compiler will use the folder name as the section that the problem will fall under.
 
-#Submitting your question
+# Submitting your question
 
 To submit a question you can either send me the question via someway, or use git and help me out by doing it yourself. All it takes is forking the git (there's a button in the upper right hand corner), and then making folders (for example 'question3' in intuiton/classical-mechanics/) and submitting a pull request.
 
 
-#To Do
+# To-Do
 
 Make the answer.py, both.py, everything.py scripts.
